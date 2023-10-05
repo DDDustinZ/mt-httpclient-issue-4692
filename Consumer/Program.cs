@@ -35,9 +35,6 @@ internal class Program
             })
             .Build();
         
-        var publishEndpoint = host.Services.CreateScope().ServiceProvider.GetRequiredService<IPublishEndpoint>();
-        await publishEndpoint.Publish(new TestCommand());
-        
         await host.RunAsync();
     }
 }

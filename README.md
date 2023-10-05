@@ -3,3 +3,12 @@
 ## Steps
 - Run `docker compose up -d`
 - Run Consumer project
+- Publish message
+```
+{
+  "messageType": [
+    "urn:message:Consumer:TestCommand"
+  ],
+  "message": {},
+}
+```
