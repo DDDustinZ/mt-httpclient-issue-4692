@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Consumer", "Consumer\Consumer.csproj", "{B055FF08-3ECD-41C8-A08D-9A59C60F5120}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{05614DB5-84DA-4CE2-B8F7-78E188A59A04}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		docker-compose.yml = docker-compose.yml
+		README.md = README.md
+		mockserver\initializerJson.json = mockserver\initializerJson.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B055FF08-3ECD-41C8-A08D-9A59C60F5120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B055FF08-3ECD-41C8-A08D-9A59C60F5120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B055FF08-3ECD-41C8-A08D-9A59C60F5120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B055FF08-3ECD-41C8-A08D-9A59C60F5120}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
