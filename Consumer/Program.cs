@@ -1,11 +1,12 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using Consumer;
 using MassTransit;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 
-internal class Program
+namespace Consumer;
+
+internal static class Program
 {
     public static async Task Main(string[] args)
     {
